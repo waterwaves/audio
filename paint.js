@@ -4,6 +4,7 @@ function Graph(canvas) {
     this.height = canvas.height;
     console.log('The graph is', this.width, 'wide and', this.height, 'tall');
 }
+
 // Draw graphs
 Graph.prototype.drawBar = function(start, w, h, color) {
     this.context.fillStyle = color || 'black';
